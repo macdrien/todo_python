@@ -13,7 +13,9 @@ while option_input != 'q':
         print('Thank you for using Todapp! See you next time')   
 
     elif option_input == 'l':
-        pass
+        print('Your open tasks are : ')
+        for task in tasks:
+            print('- ' + task)
 
     elif option_input == 'n':
         tasks.append(input('Write your new task : '))
