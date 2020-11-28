@@ -29,7 +29,7 @@ while option_input != 'q':
             print('Task unknown. Back to the menu.')
 
     elif option_input == 'r':
-        pass
+        tasks.clear()
     
     else:
-        pass
+        print('Option unknown. Back to the menu.')
