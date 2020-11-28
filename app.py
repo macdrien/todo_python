@@ -11,3 +11,18 @@ while option_input != 'q':
 
     if option_input == 'q':
         print('Thank you for using Todapp! See you next time')   
+
+    elif option_input == 'l':
+        pass
+
+    elif option_input == 'n':
+        pass
+
+    elif option_input == 'c':
+        pass
+
+    elif option_input == 'r':
+        pass
+    
+    else:
+        pass
