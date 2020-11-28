@@ -21,7 +21,12 @@ while option_input != 'q':
         tasks.append(input('Write your new task : '))
 
     elif option_input == 'c':
-        pass
+        to_delete = input('Which task do you want to delete ? ')
+
+        if to_delete in tasks:
+            tasks.remove(to_delete)
+        else:
+            print('Task unknown. Back to the menu.')
 
     elif option_input == 'r':
         pass
